@@ -1,0 +1,2 @@
+# SpacyTextImager
+TextImagerClient for SpacyMultiTagger
