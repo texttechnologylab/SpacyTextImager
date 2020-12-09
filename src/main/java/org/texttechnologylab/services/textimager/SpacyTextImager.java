@@ -41,7 +41,7 @@ public class SpacyTextImager {
             TIClient = new TextImagerClient();
             TIClient.setConfigFile("src/main/resources/services.xml");
         }
-        TIClient.process(pCas.getCas(), new String[]{"SpaCyMultiTagger"});
+        TIClient.process(pCas.getCas(), new String[]{"SpaCyMultiTagger", "TextBlobSentiment"});
         return pCas;
     }
 
